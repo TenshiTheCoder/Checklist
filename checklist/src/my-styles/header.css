@@ -1,0 +1,33 @@
+/* Header.css */
+
+.checklist-header {
+  position: relative;            /* Allows absolute positioning for child elements */
+  padding: 10px;                /* Optional: add padding if needed */
+}
+
+.checklist-logo-container {
+  position: absolute;            /* Position absolutely to the header */
+  top: 0;                        /* Align to the top */
+  left: 0;                       /* Align to the left */
+}
+
+.checklist-logo {
+  width: 40px;                  /* Adjust width to a smaller size */
+  height: auto;                 /* Maintain aspect ratio */
+}
+
+.checklist-title-container {
+  margin-top: 50px;             /* Add margin to create space below the logo */
+}
+
+.checklist-title {
+  text-align: center;           /* Center the title text */
+}
+
+.checklist-subtitle-container {
+  text-align: center;           /* Center the subtitle text */
+}
+
+.checklist-subtitle {
+  margin-top: 10px;             /* Optional: add margin to subtitle */
+}
