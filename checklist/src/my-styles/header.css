@@ -1,33 +1,73 @@
 /* Header.css */
+* {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Use border-box for sizing */
+}
 
+body {
+  position: relative;
+}
+
+/* Container for the entire header */
 .checklist-header {
-  position: relative;            /* Allows absolute positioning for child elements */
-  padding: 10px;                /* Optional: add padding if needed */
+  display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items to the top */
+    justify-content: flex-start; /* Align items to the left */
+    height: 100px; /* Set a height if needed */
 }
 
+/*Container for the logo */
 .checklist-logo-container {
-  position: absolute;            /* Position absolutely to the header */
-  top: 0;                        /* Align to the top */
-  left: 0;                       /* Align to the left */
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.checklist-logo {
-  width: 40px;                  /* Adjust width to a smaller size */
-  height: auto;                 /* Maintain aspect ratio */
+/* Logo image */
+.checklist-logo-img {
+  width: 60px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 0; /* Ensure no top margin */
+    margin-left: 0; /* Ensure no left margin */
 }
 
+.checklist-title-container, .checklist-subtitle-container {
+  position: absolute;
+}
+
+/*Container for the title */
 .checklist-title-container {
-  margin-top: 50px;             /* Add margin to create space below the logo */
+  
+}
+  
+.checklist-title, .checklist-subtitle {
+  position: absolute;
+  top: 0;
 }
 
+/* Title text */
 .checklist-title {
-  text-align: center;           /* Center the title text */
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -400px;
+  text-align: center;
 }
 
+/*Container for the subtitle */
 .checklist-subtitle-container {
-  text-align: center;           /* Center the subtitle text */
+  
 }
 
+/* Subtitle text */
 .checklist-subtitle {
-  margin-top: 10px;             /* Optional: add margin to subtitle */
+  margin-top: -360px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }

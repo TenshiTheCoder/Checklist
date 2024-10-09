@@ -1,4 +1,4 @@
-import check from '../my-icons/check.png'
+import check from '../my-icons/check-mark.png'
 import "../my-styles/header.css"
 function Header () {
     return (
