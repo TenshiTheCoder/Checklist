@@ -1,0 +1,27 @@
+/* Styling for the container for the Footer */
+.footer-container{
+  position: absolute;
+  bottom: 12px; /* Set the bottom position to 12px for a little bit of space between the text and the bottom of the page*/
+  left: 50%;
+  transform: translateX(-50%); /* Center the container horizontally */
+  text-align: center; /* Center the text vertically */
+}
+
+/* Styling for the copyright text */
+.footer-copyright{
+  font-size : 12px; /* Set the font size to 12px to make it smaller and give way for the github link*/
+  line-height : 1.2;
+  margin-top: 5px; /* Pushed the github link up a bit */
+}
+
+/* Styling for the GitHub link */
+.github-link{
+  cursor: pointer;
+  font-size: 18px;
+  color: #F7DC6F;
+  transition: all 0.35s ease-in-out;
+}
+
+.github-link:hover{
+
+}
