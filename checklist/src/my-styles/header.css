@@ -19,20 +19,19 @@ body {
 
 /*Container for the logo */
 .checklist-logo-container {
-  margin: 0;
   padding: 0;
   margin-right: 10px;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 1050px;
 }
 
 /* Logo image */
 .checklist-logo-img {
-  width: 60px; /* Set the width of the image */
+    width: 35px; /* Set the width of the image */
     height: auto; /* Maintain aspect ratio */
-    margin-top: 0; /* Ensure no top margin */
-    margin-left: 0; /* Ensure no left margin */
+    margin-top: 10px; /* Ensure no top margin */
+    margin-left: 1px; /* Ensure no left margin */
 }
 
 .checklist-title-container, .checklist-subtitle-container {
@@ -40,10 +39,6 @@ body {
 }
 
 /*Container for the title */
-.checklist-title-container {
-  
-}
-  
 .checklist-title, .checklist-subtitle {
   position: absolute;
   top: 0;
@@ -56,6 +51,8 @@ body {
   transform: translateX(-50%);
   margin-top: -400px;
   text-align: center;
+  font-size: 35px;
+  z-index: 1;
 }
 
 /*Container for the subtitle */
@@ -65,9 +62,10 @@ body {
 
 /* Subtitle text */
 .checklist-subtitle {
-  margin-top: -360px;
+  margin-top: -375px;
   position: absolute;
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
+  font-size: 20px;
 }
