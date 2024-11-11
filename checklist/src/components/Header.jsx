@@ -8,8 +8,6 @@ function Header () {
         </div>
         <div className="checklist-title-container">
         <h1 className="checklist-title">Checklist</h1>
-        </div>
-        <div className="checklist-subtitle-container">
         <h2 className="checklist-subtitle">By Angel Martinez</h2>
         </div>
       </header>

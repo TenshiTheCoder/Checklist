@@ -12,8 +12,8 @@ body {
 /* Container for the entire header */
 .checklist-header {
   display: flex; /* Use flexbox for layout */
-    align-items: flex-start; /* Align items to the top */
-    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Align items to the top */
+    justify-content: center; /* Align items to the left */
     height: 100px; /* Set a height if needed */
 }
 
@@ -35,7 +35,10 @@ body {
 }
 
 .checklist-title-container, .checklist-subtitle-container {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /*Container for the title */
@@ -46,13 +49,7 @@ body {
 
 /* Title text */
 .checklist-title {
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: -400px;
-  text-align: center;
   font-size: 35px;
-  z-index: 1;
 }
 
 /*Container for the subtitle */
@@ -62,10 +59,7 @@ body {
 
 /* Subtitle text */
 .checklist-subtitle {
-  margin-top: -375px;
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
   font-size: 20px;
+  margin-bottom: 20px;
+  padding-top: 2em;
 }
