@@ -1,0 +1,34 @@
+.submittedForm{
+  display: flex;
+  position: absolute;
+  top: 100px;
+  right: 880px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.submittedTask{
+
+} 
+
+.submittedLocation{
+
+}
+
+.submittedDate{
+
+}
+
+.newTaskButton{
+
+}
+
+.submittedTask, .submittedLocation, .submittedDate{
+  font-family: Helvetica, comic, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
