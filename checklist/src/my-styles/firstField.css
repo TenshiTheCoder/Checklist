@@ -37,7 +37,7 @@ label{
 .toDo-task, .toDo-location, .toDo-date{
   border-radius: 5px;
   border-color: black;
-  box-shadow: 2px 2px 1px 0px white;
+  box-shadow: 2px 2px 1px 0px rgb(0, 0, 0);
   text-align: center;
   width: auto;
   resize: horizontal;
